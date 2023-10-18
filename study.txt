@@ -1,39 +1,88 @@
+RESEARCH: CITRUS FRUITS (I have tried), their taste, color, properties, etc.
 
-Emotions vs Feelings:
+I want to compare citrus fruits, and then do a visual representation of each of them, maybe add like random description:
 
-Definitions
-    - Emotion:  “Emotions are brief, intense, and often automatic reactions to specific stimuli or events, characterized by physiological changes and universal expressions.”
+What I will be evaluating for each of them:
 
-            - Six basic emotions: Fear, Anger, Sadness, Joy, Surprise, Disgust
+- Color
+- Sweetness
+- Bitterness
+- Shape
+- Size 
+- Area 
 
-    - Feeling: “Feelings are subjective, longer-lasting experiences that arise from our interpretation and understanding of emotions. They derive FROM emotions.”
-            - feelings: Anxiety, Terror, Depression , Happiness , Confusion, Nauseated 
+Citrus fruits:
 
-Duration
-    - Emotion - short “sad”
-    - Feeling  - long  “depressed”
+Lemon:
+	Color: Yellow
+    Sweetness: Low
+    Bitterness: Low
+    Shape: Oval
+    Size: Small
+    Area: Worldwide
 
-Variety:
-    - Emotions are universal 
-    - Feelings can be very personal 
+Pomelo:
+	Color: Green
+	Sweetness: High
+	Bitterness: Low
+	Shape: Round
+	Size: Big
+	Area: Asia 
 
-Changes in the body:
-    - Emotions - trigger heart rate going faster, tears, facial expressions
-    - Feelings - subjective experiences, thoughts, perceptions
+Orange:
+    Color: Orange
+    Sweetness: High
+    Bitterness: Low
+    Shape: Round
+    Size: Medium
+    Area: Worldwide
 
-What makes them appear
-    - Emotions: triggers
-    - Feelings: they can be there for a long time, not necessarily express themselves 
+Blood Orange:
+    Color: Red/Orange
+    Sweetness: High
+    Bitterness: Low
+    Shape: Round
+    Size: Medium
+    Area: Mediterranean
+
+Lime:
+    Color: Green
+    Sweetness: Low
+    Bitterness: Low
+    Shape: Oval
+    Size: Small
+    Area: Florida
 
 
-Correlations: 
-- A feeling can be based on an emotion - triggered by something else 
--  the same emotion can result in different feelings depending on who's experiencing it.
-- there needs to be an emotion first before you can develop a related feeling.
+Mandarin:
+    Color: Orange
+    Sweetness: High
+    Bitterness: Low
+    Shape: Round
+    Size: Small
+    Area: Worldwide
 
 
-Sources:
+Clementines:
+    Color: Orange
+    Sweetness: High
+    Bitterness: Low
+    Shape: Round
+    Size: Small
+    Area: Worldwide
 
-https://www.happierhuman.com/emotions-vs-feelings/ 
+Yuzu:
+    Color: Yellow
+    Sweetness: Low
+    Bitterness: Low
+    Shape: Round
+    Size: Small
+    Area: Asia
 
-https://www.psychologytoday.com/us/blog/the-pleasure-is-all-yours/202202/the-important-difference-between-emotions-and-feelings 
+Grapefruit:
+    Color: Pink/Yellow
+    Sweetness: Low
+    Bitterness: High
+    Shape: Round
+    Size: Large
+    Area: Worldwide

@@ -11,6 +11,8 @@ What I will be evaluating for each of them:
 - Size 
 - Area 
 
+Citruses I have tried: lemon, pomelo, orange, blood orange, lime, mandarin, clementines, yuzu, graprefruit 
+
 Citrus fruits:
 
 Lemon:
@@ -38,7 +40,7 @@ Orange:
     Area: Worldwide
 
 Blood Orange:
-    Color: Red/Orange
+    Color: Red
     Sweetness: High
     Bitterness: Low
     Shape: Round
@@ -80,7 +82,7 @@ Yuzu:
     Area: Asia
 
 Grapefruit:
-    Color: Pink/Yellow
+    Color: Pink
     Sweetness: Low
     Bitterness: High
     Shape: Round

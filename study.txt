@@ -1,4 +1,4 @@
-RESEARCH: CITRUS FRUITS (I have tried), their taste, color, properties, etc.
+RESEARCH: CITRUS FRUITS (I have tried), their taste, color, properties, where are they from etc.
 
 I want to compare citrus fruits, and then do a visual representation of each of them, maybe add like random description:
 
@@ -11,9 +11,30 @@ What I will be evaluating for each of them:
 - Size 
 - Area 
 
-Citruses I have tried: lemon, pomelo, orange, blood orange, lime, mandarin, clementines, yuzu, graprefruit 
+Citruses I have tried: 
+
+lemon, pomelo, orange, blood orange, 
+lime, mandarin, clementines, yuzu, graprefruit 
 
 Citrus fruits:
+
+fruits.lemon.color
+
+
+
+let fruits = {
+    lemon: {
+    color: "Yellow",
+    Sweetness: Low
+    Bitterness: Low
+    Shape: Oval
+    Size: Small
+    Area: Worldwide
+    },
+    pomelo: {
+
+    }
+}
 
 Lemon:
 	Color: Yellow

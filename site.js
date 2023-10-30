@@ -7,6 +7,7 @@ let fruits = {
         shape: 'Oval',
         size: 'Small',
         area: 'Worldwide',
+        lemonimage: "img/lemon.png",
     },
     pomelo: {
         name: "Pomelo",
@@ -16,6 +17,7 @@ let fruits = {
         shape: "Round",
         size: "Big",
         area: "Asia",
+        pomeloimage: "img/pomelo.png",
 
     }, 
     orange:{ 
@@ -26,6 +28,7 @@ let fruits = {
         shape: "Round",
         size: "Medium",
         area: "Worldwide",
+        orangeimage: "img/orange.png",
     },
     bloodOrange:{
         name: "Blood Orange",
@@ -35,6 +38,7 @@ let fruits = {
         shape: "Round",
         size: "Medium",
         area: "Mediterranean",
+        bloodorangeimage: "img/bloodorange.png",
     },
     lime: {
         name: "Lime",
@@ -44,6 +48,7 @@ let fruits = {
         shape: "Oval",
         size: "Small",
         area: "Florida",
+        limeimage: "img/lime.png",
     },
     mandarin: {
         name: "Mandarin",
@@ -53,6 +58,7 @@ let fruits = {
         shape: "Round",
         size: "Small",
         area: "Worldwide",
+        mandarinimage: "img/mandarin.png",
     },
     clementines: {
         name: "Clementines",
@@ -62,6 +68,7 @@ let fruits = {
         shape: "Round",
         size: "Small",
         area: "Worldwide",
+        clementineimage: "img/clementine.png",
     },
     yuzu:{
         name: "Yuzu",
@@ -71,6 +78,7 @@ let fruits = {
         shape: "Round",
         size: "Small",
         area: "Asia",
+        yuzuimage: "img/yuzu.png",
     },
     grapefruit: {
         name: "Grapefruit",
@@ -80,7 +88,27 @@ let fruits = {
         shape: "Round",
         size: "Large",
         area: "Worldwide",
+        grapefruitimage: "img/grapefruit.png",
     }
+
+    }
+
+    let story = {
+
+        beginning: {
+            line1: "Once upon a time in a sunny orchard, there were 9 colorful citrus fruits, each with a different taste.",
+            line2: "Let's meet them in order from the most sour to the sweetest!"
+
+        },
+
+        story1: {
+
+            line1: "A bit small and yellow ",
+            line2: "It was a little sour, like a surprise face.",
+            line3: "Sometimes, a bit of sourness makes life exciting."
+
+        }
+
 
     }
     
@@ -102,9 +130,12 @@ let fruits = {
     function displaySweetnessInfo(fruit) {
         displayFruitDetails(fruit);
     
+
         if (isSweet(fruit)) {
+
             console.log(`${fruit.name} is sweet.`);
         } else {
+            document.querySelector('.sweetnessplace').innerHTML = `${fruit.name} is not very sweet.`
             console.log(`${fruit.name} is not very sweet.`);
         }
     }
@@ -119,3 +150,104 @@ let fruits = {
     displaySweetnessInfo(pomelo);
     displaySweetnessInfo(orange);
 
+
+// lemon name
+document.querySelector('.lemonsweetness').innerHTML = fruits.lemon.name
+
+// lime name
+document.querySelector('.limename').innerHTML = fruits.lime.name
+
+//yuzu name
+document.querySelector('.yuzuname').innerHTML = fruits.yuzu.name
+
+// grapefruit name
+document.querySelector('.grapefruitname').innerHTML = fruits.grapefruit.name
+
+//orange name
+document.querySelector('.orangename').innerHTML = fruits.orange.name 
+
+//mandarin name
+document.querySelector('.mandarinname').innerHTML = fruits.mandarin.name 
+
+//clementine name 
+document.querySelector('.clementinesname').innerHTML = fruits.clementines.name 
+
+// pomelo name 
+document.querySelector('.pomeloname').innerHTML = fruits.pomelo.name 
+
+// blood orange name 
+document.querySelector('.bloodorangename').innerHTML = fruits.bloodOrange.name 
+
+document.querySelector('.line1').innerHTML = story.beginning.line1
+document.querySelector('.line2').innerHTML = story.beginning.line2
+
+//images 
+
+//lemon
+document.querySelector(".lemon-image").setAttribute("src",fruits.lemon.lemonimage)
+
+//lime
+document.querySelector(".lime-image").setAttribute("src",fruits.lime.limeimage)
+
+//pomelo
+document.querySelector(".pomelo-image").setAttribute("src",fruits.pomelo.pomeloimage)
+
+//blood orange
+document.querySelector(".bloodorange-image").setAttribute("src",fruits.bloodOrange.bloodorangeimage)
+
+//yuzu 
+document.querySelector(".yuzu-image").setAttribute("src",fruits.yuzu.yuzuimage)
+
+//clementine
+document.querySelector(".clementine-image").setAttribute("src",fruits.clementines.clementineimage)
+
+
+//grapefruit
+document.querySelector(".grapefruit-image").setAttribute("src",fruits.grapefruit.grapefruitimage)
+
+//orange
+document.querySelector(".orange-image").setAttribute("src",fruits.orange.orangeimage)
+
+
+//lemon story 1
+document.querySelector('.lemon-line1').innerHTML = story.story1.line1
+
+
+
+function addPopupEffect(targetId, tooltipId) {
+    const target = document.getElementById(targetId);
+    const tooltip = document.getElementById(tooltipId);
+  
+    // Add event listeners for the target element
+    target.addEventListener('mouseover', () => {
+      tooltip.style.display = 'block';
+    }, false);
+  
+    target.addEventListener('mouseleave', () => {
+      tooltip.style.display = 'none';
+    }, false);
+  }
+
+  window.onload = function () {
+    addPopupEffect("popup-text1", "tooltip-text1");
+    addPopupEffect("popup-text2", "tooltip-text2");
+    addPopupEffect("popup-text3", "tooltip-text3");
+    addPopupEffect("popup-text4", "tooltip-text4");
+    addPopupEffect("popup-text5", "tooltip-text5");
+    addPopupEffect("popup-text6", "tooltip-text6");
+    addPopupEffect("popup-text7", "tooltip-text7");
+    addPopupEffect("popup-text8", "tooltip-text8");
+    addPopupEffect("popup-text9", "tooltip-text9");
+  }
+  
+
+    // area
+    document.querySelector('.lemonarea').innerHTML = fruits.lemon.area
+    document.querySelector('.limearea').innerHTML = fruits.lime.area
+    document.querySelector('.yuzuarea').innerHTML = fruits.yuzu.area
+    document.querySelector('.grapefruitarea').innerHTML = fruits.grapefruit.area
+    document.querySelector('.orangearea').innerHTML = fruits.orange.area
+    document.querySelector('.mandarinarea').innerHTML = fruits.mandarin.area
+    document.querySelector('.clementinearea').innerHTML = fruits.clementines.area
+    document.querySelector('.pomeloarea').innerHTML = fruits.pomelo.area
+    document.querySelector('.bloodorangearea').innerHTML = fruits.bloodOrange.area

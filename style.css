@@ -8,7 +8,6 @@ text-align: center;
 }
 
 h2{
-
     font-family: 'Love Ya Like A Sister', cursive;
     color: rgba(255, 238, 0, 0.919);
     font-size: 40px;
@@ -29,6 +28,7 @@ body{
 }
 
 .container1{
+    z-index: 1;
 display: flex;
 justify-content: center;
 margin-left: 100px;
@@ -38,6 +38,7 @@ flex-direction: column;
 }
 
 .container2{
+    z-index: 1;
     display: flex;
     justify-content:center;
     flex-direction: row;
@@ -95,6 +96,7 @@ flex-direction: column;
 
 
 .maincontainer{
+    z-index: 1;
     margin: 50px;
     text-align: center;
 }
@@ -258,4 +260,20 @@ flex-direction: column;
  to {
    opacity: 1;
  }
+}
+
+
+#blink{
+    z-index: 3;
+    padding: 8px;
+    color: beige;
+    width: 400px;
+    height: 20px;
+
+}
+
+.blinkcontainer{
+
+    display: flex;
+    z-index: 3;
 }

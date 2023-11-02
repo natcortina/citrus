@@ -6,7 +6,7 @@ let fruits = {
         bitterness: "Low",
         shape: 'Oval',
         size: 'Small',
-        area: 'Worldwide',
+        area: 'Northeast India',
         lemonimage: "img/lemon.png",
     },
     pomelo: {
@@ -16,7 +16,7 @@ let fruits = {
         bitterness: "Low",
         shape: "Round",
         size: "Big",
-        area: "Asia",
+        area: " Asia and Malaysia",
         pomeloimage: "img/pomelo.png",
 
     }, 
@@ -27,7 +27,7 @@ let fruits = {
         bitterness: "Low",
         shape: "Round",
         size: "Medium",
-        area: "Worldwide",
+        area: "Malay Archipelago",
         orangeimage: "img/orange.png",
     },
     bloodOrange:{
@@ -37,7 +37,7 @@ let fruits = {
         bitterness: "Low",
         shape: "Round",
         size: "Medium",
-        area: "Mediterranean",
+        area: "Southern Mediterranean",
         bloodorangeimage: "img/bloodorange.png",
     },
     lime: {
@@ -57,7 +57,7 @@ let fruits = {
         bitterness:"Low",
         shape: "Round",
         size: "Small",
-        area: "Worldwide",
+        area: "Southern Asia and the Philippines.",
         mandarinimage: "img/mandarin.png",
     },
     clementines: {
@@ -67,7 +67,7 @@ let fruits = {
         bitterness: "Low",
         shape: "Round",
         size: "Small",
-        area: "Worldwide",
+        area: "China",
         clementineimage: "img/clementine.png",
     },
     yuzu:{
@@ -77,7 +77,7 @@ let fruits = {
         bitterness: "Low",
         shape: "Round",
         size: "Small",
-        area: "Asia",
+        area: "The upper river basin of the Yangtze River in China",
         yuzuimage: "img/yuzu.png",
     },
     grapefruit: {
@@ -87,7 +87,7 @@ let fruits = {
         bitterness: "High",
         shape: "Round",
         size: "Large",
-        area: "Worldwide",
+        area: "Barbados",
         grapefruitimage: "img/grapefruit.png",
     }
 
@@ -97,7 +97,8 @@ let fruits = {
 
         beginning: {
             line1: "Once upon a time in a sunny orchard, there were 9 colorful citrus fruits, each with a different taste.",
-            line2: "Let's meet them in order from the most sour to the sweetest!"
+            line2: "Let's meet them in order from the most sour to the sweetest!",
+            line3: "Hover over their names to see where they come from!"
 
         },
 
@@ -227,6 +228,21 @@ function addPopupEffect(targetId, tooltipId) {
       tooltip.style.display = 'none';
     }, false);
   }
+  
+
+ 
+//    function blinker() {
+//     if(document.getElementById("blink")){
+//         var d = 
+//         document.getElementById("blink");
+//         d.style.display = (d.style.opacity == '100%'?"0%":"100%");
+//         
+//     }
+// }
+
+// setInterval(blinker, 2000); // every 2 seconds
+
+
 
   window.onload = function () {
     addPopupEffect("popup-text1", "tooltip-text1");
@@ -251,3 +267,6 @@ function addPopupEffect(targetId, tooltipId) {
     document.querySelector('.clementinearea').innerHTML = fruits.clementines.area
     document.querySelector('.pomeloarea').innerHTML = fruits.pomelo.area
     document.querySelector('.bloodorangearea').innerHTML = fruits.bloodOrange.area
+
+
+ 
